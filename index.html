@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Project</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+<header>
+<br>
+<div class="topGraphic">
+    <center><img src="/src/images/BotnetZombie.gif" class="botnetGlobe"></center>
+</div>
+    <br>
+    <br>
+    <h1 class = "title"><strong><center>Argus Botnet Command & Control Server</center></strong></h1>
+    <br>
+    <div class="navTest">
+        <div class="dropdown">
+            <span>The Collective</span>
+            <div class="dropdown-content">
+                <img src="/src/images/accessunknown.jpg" class="accessunknown" width="210px">
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Botnet Maker 1.0</span>
+            <div class="dropdown-content">
+                <img src="src/images/414Error.jpg" class="414error" width="300px">
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>About the Developer</span>
+            <div class="dropdown-content">
+                <button id= "myBtn">Dustin Bayham | Software Developer</button>
+                <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <strong><h2>Contact Me</h2></strong>
+                    <strong><a href="mailto:bayhamdj@gmail.com">Email</a></strong><br>
+                    <strong><a href="https://dbayham.github.io">Professional Portfolio</a></strong><br>
+                    <strong><a href="https://linkedin.com/in/dustin-bayham-20520865">LinkedIn</a></strong> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><button class="resetGame"><strong>TIME STOMP</strong></button></center>
+<br>
+    <div class="BotnetUpgradeContainer"></div>
+        <div class= "botnets"></div>
+           <center><button class="botNetButton">
+               <img class="botNetButton" src="/src/images/laptopbuttonSkullbones.png"></button></center>
+           <center><h2 class="botCount">Botnet Count</h2>
+           <h3><div class="bot__Count">0</div></h3></center>
+        </div>
+    </div>
+  <center><div class="BotnetUpgradeContainerLower">
+        <div class="botNetZombies">
+            <div class="autoClicker">
+              <h2 class="autoBotCount">Bot Zombie Count</h2>
+                <h3><div class="autoBot__Count">0</div></h3>
+                <div class="upgrades">
+                    <div class="purchaseAutoClicker">
+                        <h3>botnets required<div class="autoBot__cost"></div>110, 121, 133... </h3>
+                      <button class="purchaseAutoClicker" onclick="playSound()""><Strong>Deploy Zero Day Exploit</Strong></button>
+                      <audio id="play" src="src/sounds/Voice 01 - Rise From Your Grave.mp3" src="src/sounds/Voice-01-Rise-From-Your-Grave.ogg"></audio>
+                      <center><img id="gif" src="src/images/MJpopcorn.gif" height="auto", width="100"></center>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="botMultiplier">
+          <h2 class="botMultiplier">DDos Attack Multiplier</h2>
+            <h3><div class="bot__Multiplier">0</div></h3>
+            <div class="multiplierUpgrade">
+                <div class="BotMultiplier"></div>
+                <h3>botnets required<div class="multiplier__cost"></div>11, 12.1, 13.31...</h3>
+                <button class="purchaseBotMultiplier" onclick="playOof()"><Strong>Inject Malware</Strong></button>
+                <audio id="oof" src="src/sounds/Roblox-death-sound.mp3" src="src/sounds/Roblox-death-sound.ogg"></audio>
+            </div>
+        </div>
+        </div>
+    </div></center>
+    <br>
+</div>
+
+
+<audio autoplay>
+    <source src="src/sounds/dial-up-modem-01.mp3" type="audio/mpeg">
+    <source src="src/sounds/dial-up-modem-01OGG.ogg" type="audio/ogg">
+</audio>
+
+    <script src="./src/js/donut-maker.js"></script>
+</body>
+</html>
